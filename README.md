@@ -1,3 +1,3 @@
 # README 
 
-- architecture with lerna
+☘️- architecture with lerna
