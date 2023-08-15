@@ -1,3 +1,3 @@
 # README 
 
-- base architecture
+- architecture with lerna
