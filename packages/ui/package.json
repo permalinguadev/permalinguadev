@@ -1,0 +1,31 @@
+{
+  "name": "@permalinguadev/ui",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This is a placeholder description, please change me.",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "main": "dist/ui.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "serve": "vite",
+    "build": "yarn build:ui",
+    "build:ui": "vite build",
+    "tsc": "vue-tsc src --noEmit",
+    "tsc:watch": "vue-tsc  src --noEmit --watch",
+    "lint": "eslint 'src/**/*.{ts,vue}'"
+  },
+  "dependencies": {
+    "tslib": "^2.5.0",
+    "vite-plugin-dts": "^1.7.2",
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-property-decorator": "^10.0.0-rc.3"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.4"
+  }
+}
