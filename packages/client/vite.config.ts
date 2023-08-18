@@ -18,7 +18,7 @@ export default {
       static: resolve('public/static'),
     },
   },
-  
+
   optimizeDeps: {
     exclude: ['@permalinguadev/ui'],
   },

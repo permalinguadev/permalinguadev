@@ -12,7 +12,9 @@
     "serve": "turbo run serve",
     "test:packages": "turbo run test",
     "lint": "turbo run lint -- --fix",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "lint-staged": {
     "*.{ts,js,vue}": "eslint --fix --max-warnings=0"
@@ -24,7 +26,7 @@
     "@vue/test-utils": "^2.2.10",
     "eslint": "^8.34.0",
     "lint-staged": "^13.1.2",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.8",
     "rollup-plugin-dts": "^5.2.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "sass": "^1.58.0",
