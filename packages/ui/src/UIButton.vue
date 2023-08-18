@@ -16,17 +16,18 @@
 </script>
 
 <style scoped lang="scss">
-  .ui-button {
-    border: none;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 0.5em 2em;
-    background-color: rgb(255, 0, 0);
-    color: white;
-    font-weight: bold;
-    transition: all 0.2s;
-    &:hover {
-      transform: scale(1.1, 1.1);
-    }
+.ui-button {
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 0.5em 2em;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
   }
+}
 </style>
