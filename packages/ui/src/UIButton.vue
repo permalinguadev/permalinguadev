@@ -3,16 +3,16 @@
 </template>
 
 <script lang="ts">
-  import { Options, Vue, Prop } from 'vue-property-decorator'
+import { Options, Vue, Prop } from 'vue-property-decorator'
 
-  @Options({ name: 'UIButton', emits: 'click' })
-  export default class UIButton extends Vue {
-    @Prop({ default: false })
-    isDisabled!: boolean
+@Options({ name: 'UIButton', emits: 'click' })
+export default class UIButton extends Vue {
+  @Prop({ default: false })
+  isDisabled!: boolean
 
-    @Prop({ default: 'hello' })
-    message!: { type: string; required: true }
-  }
+  @Prop({ default: 'hello' })
+  message!: { type: string; required: true }
+}
 </script>
 
 <style scoped lang="scss">
