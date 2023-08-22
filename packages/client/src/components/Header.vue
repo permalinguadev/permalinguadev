@@ -5,17 +5,17 @@
 
 <script type="ts">
 
-export default {
+  export default {
 
 
-  name: 'Header',
-  props: {
-    msg: String,
+    name: 'Header',
+    props: {
+      msg: String
   },
-  data() {
-    return {
-      count: 0
+    data() {
+      return {
+        count: 0
+    }
     }
   }
-}
 </script>
