@@ -9,7 +9,6 @@ const port = 8083
 
 async function createExpressApp() {
   const app = express()
-
   app.use(express.json())
   app.use(express.urlencoded({ extended: true }))
   app.use(cors())
@@ -18,8 +17,8 @@ async function createExpressApp() {
       cookie: {
         signed: true,
         secret: 'adalkjsdfh-adsjfalksdjfh-asdfdsa',
-        key: 'access_token'
-      }
+        key: 'access_token',
+      },
     })
   )
   return app
