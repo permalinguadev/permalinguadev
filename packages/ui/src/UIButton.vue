@@ -12,6 +12,7 @@ export default class UIButton extends Vue {
 
   @Prop({ default: 'hello' })
   message!: { type: String; required: true }
+  message!: { type: string; required: true }
 }
 </script>
 
@@ -25,6 +26,7 @@ export default class UIButton extends Vue {
   color: white;
   font-weight: bold;
   transition: all 0.2s;
+
   &:hover {
     transform: scale(1.1, 1.1);
   }

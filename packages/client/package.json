@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vite",
-    "build": "vite build",
-    "lint": "eslint 'src/**/*.{ts,vue}'"
+    "build": "vite build"
   },
   "dependencies": {
     "@permalinguadev/ui": "*",
