@@ -13,7 +13,9 @@
     "test:packages": "turbo run test",
     "lint": "eslint packages/**/*.{js,ts,vue} --fix",
     "build": "turbo run build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "lint-staged": {
     "*.{ts,js,vue}": "eslint --fix --max-warnings=0"
@@ -25,7 +27,6 @@
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
     "@vitejs/plugin-vue": "^4.0.0",
-    "prettier": "^2.8.4",
     "@vue/compiler-sfc": "^3.2.47",
     "@vue/eslint-config-prettier": "^7.1.0",
     "@vue/eslint-config-typescript": "^11.0.3",
@@ -35,7 +36,9 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-storybook": "^0.6.13",
     "eslint-plugin-vue": "^9.15.1",
+    "jest": "29.6.2",
     "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
     "rollup-plugin-dts": "^5.2.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "sass": "^1.58.0",
