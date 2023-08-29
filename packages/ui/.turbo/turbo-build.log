@@ -1,0 +1,16 @@
+$ yarn build:ui
+$ vite build
+vite v4.4.9 building for production...
+transforming...
+✓ 19 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/style.css   0.28 kB │ gzip:  0.21 kB
+dist/ui.js      89.39 kB │ gzip: 22.12 kB
+Entry module "src/main.ts" is using named and default exports together. Consumers of your bundle will have to use `UI.default` to access the default export, which may not be what you want. Use `output.exports: "named"` to disable this warning.
+dist/ui.umd.cjs  95.83 kB │ gzip: 22.56 kB
+
+[vite:dts] Start generate declaration files...
+✓ built in 1.52s
+[vite:dts] Declaration files built in 1460ms.
+
